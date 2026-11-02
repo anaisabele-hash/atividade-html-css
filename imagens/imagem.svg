@@ -1,0 +1,12 @@
+<svg
+xmlns=http://www.w3.org/2000/svg"
+width="400" height="200">
+     <rect width="400" height="200"
+fill="#eeeeff"/>
+    <text x="200" y="110"
+font-size="35"
+    text-anchor="middle"
+fill="blue">
+        HTML e CSS
+      </text>
+</svg> 
