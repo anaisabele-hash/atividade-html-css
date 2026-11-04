@@ -1,32 +1,148 @@
-<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    body {
-        background-color: #eef5ff;
-        font-family: Arial, sans-serif;
-        margin: 30px;
-        color: #333;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f0ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #7254c8, #b18bea);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #4e367e;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e4caff;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #00000012;
+}
+
+section h2 {
+    color: #7254c8;
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-bottom: 12px;
+}
+
+.destaque {
+    text-align: center;
+}
+
+.destaque img {
+    width: 80%;
+    max-width: 450px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #7254c8;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f3f0ff;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 18px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+button {
+    background-color: #7254c8;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4e367e;
+}
+
+footer {
+    background-color: #4e367e;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
     }
 
-    h1 {
-        text-align: center;
-        color: #315b91;
-        font-size: 32px;
+    nav a {
+        display: inline-block;
+        margin: 5px;
     }
 
-    h2 {
-        color: #477bb5;
-        border-bottom: 2px solid #a9c9ec;
-        padding-bottom: 8px;
+    section {
+        padding: 18px;
     }
-
-    p {
-        background-color: white;
-        padding: 20px;
-        border-radius: 12px;
-        line-height: 1.7;
-        font-size: 16px;
-        box-shadow: 0px 3px 8px #cbd9e8;
-        text-align: justify;
-    }
-
-</style>
+}
