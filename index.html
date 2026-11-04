@@ -1,38 +1,152 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
+<!DOCTYPE html><html lang="pt-br"><head>
     <meta charset="UTF-8">
-    <title>HTML e CSS</title>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head><body><header>
+    <h1>Aprendendo HTML e CSS</h1>
+    <p>Descubra o mundo da criação de sites!</p>
+</header>
 
-<body>
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#html">HTML</a>
+    <a href="#tags">Tags</a>
+    <a href="#css">CSS</a>
+    <a href="#contato">Contato</a>
+</nav>
 
-    <h1>Conhecendo HTML e CSS</h1>
+<main>
 
-    <h2>O que é HTML?</h2>
+    <section id="inicio" class="destaque">
+        <h2>Bem-vindo ao nosso site!</h2>
+        <p>
+            Este site apresenta os conceitos básicos
+            do HTML e CSS, duas tecnologias essenciais
+            para o desenvolvimento de páginas na internet.
+        </p>
 
-    <p>
-        HTML significa HyperText Markup Language (Linguagem de
-        Marcação de Hipertexto). É utilizado para criar e estruturar
-        páginas da internet, organizando títulos, textos, imagens,
-        links e tabelas. Ele funciona por meio de tags, que indicam
-        ao navegador como apresentar cada conteúdo. O HTML é a
-        base da criação de sites e não é considerado uma linguagem
-        de programação, mas sim de marcação.
-    </p>
+        <img src="imagem.jpg" alt="Imagem de programação">
+    </section>
 
-    <h2>O que é CSS?</h2>
+    <section id="html">
+        <h2>1. O que é HTML?</h2>
 
-    <p>
-        CSS significa Cascading Style Sheets (Folhas de Estilo
-        em Cascata). É utilizado para personalizar a aparência
-        dos sites, permitindo alterar cores, fontes, tamanhos,
-        bordas e espaçamentos. Enquanto o HTML organiza o conteúdo,
-        o CSS cuida da parte visual da página, deixando o site
-        mais bonito e organizado. Juntos, eles são fundamentais
-        para o desenvolvimento de páginas na internet.
-    </p>
+        <p>
+            HTML significa HyperText Markup Language.
+            É uma linguagem de marcação utilizada para
+            estruturar o conteúdo de páginas da internet.
+        </p>
+
+        <p>
+            Com HTML podemos organizar textos, imagens,
+            links, tabelas, listas e formulários.
+        </p>
+    </section>
+
+    <section>
+        <h2>2. História do HTML</h2>
+
+        <p>
+            O HTML foi criado por Tim Berners-Lee em 1991.
+            Desde então, passou por diversas atualizações,
+            tornando-se uma das principais tecnologias
+            utilizadas na construção de sites.
+        </p>
+    </section>
+
+    <section id="tags">
+        <h2>3. Principais tags HTML</h2>
+
+        <ul>
+            <li>&lt;h1&gt; - Título principal</li>
+            <li>&lt;p&gt; - Parágrafo</li>
+            <li>&lt;img&gt; - Imagem</li>
+            <li>&lt;a&gt; - Link</li>
+            <li>&lt;br&gt; - Quebra de linha</li>
+            <li>&lt;ul&gt; - Lista não ordenada</li>
+            <li>&lt;li&gt; - Item de lista</li>
+            <li>&lt;table&gt; - Tabela</li>
+            <li>&lt;form&gt; - Formulário</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>4. Exemplo de tabela</h2>
+
+        <table>
+            <tr>
+                <th>Linguagem</th>
+                <th>Função</th>
+            </tr>
+
+            <tr>
+                <td>HTML</td>
+                <td>Estrutura do site</td>
+            </tr>
+
+            <tr>
+                <td>CSS</td>
+                <td>Estilização do site</td>
+            </tr>
+
+            <tr>
+                <td>JavaScript</td>
+                <td>Interatividade</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="css">
+        <h2>5. O que é CSS?</h2>
+
+        <p>
+            CSS significa Cascading Style Sheets.
+            É uma linguagem utilizada para estilizar
+            páginas HTML.
+        </p>
+
+        <p>
+            Com CSS podemos modificar cores, fontes,
+            tamanhos, espaçamentos e fundos.
+        </p>
+    </section>
+
+    <section>
+        <h2>6. Exemplo de link</h2>
+
+        <p>Acesse o site abaixo para aprender mais:</p>
+
+        <a href="https://www.w3schools.com/html/"
+        target="_blank">Aprenda HTML</a>
+    </section>
+
+    <section>
+        <h2>7. Teste seus conhecimentos</h2>
+
+        <form>
+            <label>Qual linguagem estrutura uma página web?</label>
+
+            <input type="text" placeholder="Digite sua resposta">
+
+            <label>Você gostou de aprender HTML?</label>
+
+            <select>
+                <option>Sim!</option>
+                <option>Mais ou menos</option>
+                <option>Não</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</main>
+
+<footer id="contato">
+    <p>Site desenvolvido para fins educacionais.</p>
+    <p>Aprendendo HTML e CSS | 2026</p>
+</footer>
 
 </body>
-</html>
+    </html>
